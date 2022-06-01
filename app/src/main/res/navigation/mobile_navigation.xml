@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <!--HOME -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.uas_mobile.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- GAME PC -->
+    <fragment
+        android:id="@+id/gamePCListFragment"
+        android:name="com.example.uas_mobile.ui.gamepc.GamePCListFragment"
+        android:label="@string/menu_gamepc"
+        tools:layout="@layout/list_gamepc_view_item" >
+        <action
+            android:id="@+id/action_gamePCListFragment_to_gamePCDetailFragment"
+            app:destination="@id/gamePCDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gamePCDetailFragment"
+        android:name="com.example.uas_mobile.ui.gamepc.GamePCDetailFragment"
+        android:label="GamePCDetailFragment"
+        tools:layout="@layout/fragment_gamepc_detail">
+        <action
+            android:id="@+id/action_gamePCDetailFragment_to_gamePCListFragment"
+            app:destination="@id/gamePCListFragment"
+            />
+    </fragment>
+
+    <!-- GAME WEB -->
+    <fragment
+        android:id="@+id/gameWebListFragment"
+        android:name="com.example.uas_mobile.ui.gameweb.GameWebListFragment"
+        android:label="@string/menu_gameweb"
+        tools:layout="@layout/list_gameweb_view_item" >
+        <action
+            android:id="@+id/action_gameWebListFragment_to_gameWebDetailFragment"
+            app:destination="@id/gameWebDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameWebDetailFragment"
+        android:name="com.example.uas_mobile.ui.gameweb.GameWebDetailFragment"
+        android:label="GameWebDetailFragment"
+        tools:layout="@layout/fragment_gameweb_detail">
+        <action
+            android:id="@+id/action_gameWebDetailFragment_to_GameWebListFragment"
+            app:destination="@id/gameWebListFragment"
+            />
+    </fragment>
+
+    <!-- GAME NEWS -->
+    <fragment
+        android:id="@+id/gameNewsListFragment"
+        android:name="com.example.uas_mobile.ui.gamenews.GameNewsListFragment"
+        android:label="@string/menu_gamenews"
+        tools:layout="@layout/list_gamenews_view_item" >
+        <action
+            android:id="@+id/action_gameNewsListFragment_to_gameNewsDetailFragment"
+            app:destination="@id/gameNewsDetailFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameNewsDetailFragment"
+        android:name="com.example.uas_mobile.ui.gamenews.GameNewsDetailFragment"
+        android:label="GameNewsDetailFragment"
+        tools:layout="@layout/fragment_gamenews_detail">
+        <action
+            android:id="@+id/action_gameNewsbDetailFragment_to_GameNewsListFragment"
+            app:destination="@id/gameNewsListFragment"
+            />
+    </fragment>
+
+
+    <!-- ABOUT -->
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.uas_mobile.ui.about.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" >
+    </fragment>
+
+</navigation>

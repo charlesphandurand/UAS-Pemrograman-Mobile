@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    >
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home"/>
+        <item
+            android:id="@+id/gamePCListFragment"
+            android:icon="@drawable/ic_menu_gamepc"
+            android:title="@string/menu_gamepc" />
+        <item
+            android:id="@+id/gameWebListFragment"
+            android:icon="@drawable/ic_menu_gameweb"
+            android:title="@string/menu_gameweb" />
+        <item
+            android:id="@+id/gameNewsListFragment"
+            android:icon="@drawable/ic_menu_berita"
+            android:title="@string/menu_gamenews" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/menu_about" />
+
+    </group>
+</menu>
