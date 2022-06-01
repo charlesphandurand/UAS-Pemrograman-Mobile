@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">UAS Mobile</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Maulana || Charles Phandurand</string>
+    <string name="nav_header_subtitle">2010817310008 || 2010817110006</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="labelApps">Details</string>
+
+    <!-- Text Navigation Drawer -->
+    <string name="menu_home">Home</string>
+    <string name="menu_gamepc">Game PC</string>
+    <string name="menu_gameweb">Game Web Browser</string>
+    <string name="menu_gamenews">Game News</string>
+    <string name="menu_about">About</string>
+
+</resources>
