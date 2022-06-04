@@ -9,7 +9,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.uas_mobile.databinding.FragmentAboutBinding
 import com.example.uas_mobile.databinding.FragmentHomeBinding
-import com.example.uas_mobile.ui.home.HomeViewModel
 
 class AboutFragment : Fragment() {
 
@@ -28,7 +27,7 @@ class AboutFragment : Fragment() {
         _binding = FragmentAboutBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
+        val textView: TextView = binding.fullName
         aboutViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
