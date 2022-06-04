@@ -3,10 +3,32 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/User/Desktop/Mobile/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_about.xml" value="0.19010416666666666" />
-        <entry key="..\:/Users/User/Desktop/Mobile/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_gamenews_list.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/User/Desktop/Mobile/UAS-Pemrograman-Mobile/app/src/main/res/layout/list_gamenews_view_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/drawable-v24/ic_broken_image.xml" value="0.1335" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/drawable-v24/ic_connection_error.xml" value="0.1335" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1335" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1335" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/drawable/ic_menu_about.xml" value="0.149" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/drawable/ic_menu_gamepc.xml" value="0.149" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/drawable/ic_menu_gameweb.xml" value="0.149" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/drawable/ic_menu_home.xml" value="0.1335" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/drawable/side_nav_bar.xml" value="0.1" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/activity_main.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/app_bar_main.xml" value="0.26268115942028986" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/content_main.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_about.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_gamenews_detail.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_gamenews_list.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_gamepc_detail.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_gamepc_list.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_gameweb_detail.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/fragment_home.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/list_gamenews_view_item.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/list_gamepc_view_item.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/list_gameweb_view_item.xml" value="0.12291666666666666" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/layout/nav_header_main.xml" value="0.26268115942028986" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/menu/activity_main_drawer.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.137" />
+        <entry key="..\:/Users/asus/AndroidStudioProjects/UAS-Pemrograman-Mobile/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.137" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/UAS_Mobile/app/src/main/res/drawable-v24/ic_broken_image.xml" value="0.137" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/UAS_Mobile/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2075" />
         <entry key="..\:/Users/asus/AndroidStudioProjects/UAS_Mobile/app/src/main/res/drawable/ic_menu_gamepc.xml" value="0.1775" />
