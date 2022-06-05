@@ -28,8 +28,8 @@
             android:layout_height="wrap_content"
             android:padding="8dp"
             android:text="@{viewModelPC.gamepc.title}"
-            android:fontFamily="monospace"
-            android:textAppearance="?attr/textAppearanceHeadline6"
+            android:textStyle="bold"
+            android:textAppearance="?attr/textAppearanceHeadline5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:text="Title"/>
