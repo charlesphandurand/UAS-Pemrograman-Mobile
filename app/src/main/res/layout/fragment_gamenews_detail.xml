@@ -32,7 +32,8 @@
                 app:imageUrl="@{viewModelNews.gamenews.main_image}"
                 android:padding="6dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@tools:sample/backgrounds/scenic"/>
 
             <TextView
                 android:id="@+id/title"
@@ -40,8 +41,9 @@
                 android:layout_height="wrap_content"
                 android:padding="8dp"
                 android:text="@{viewModelNews.gamenews.title}"
-                android:fontFamily="monospace"
-                android:textAppearance="?attr/textAppearanceHeadline6"
+                android:textAppearance="?attr/textAppearanceHeadline5"
+                android:textStyle="bold"
+                android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/thumbnail"
                 tools:text="Title"/>
