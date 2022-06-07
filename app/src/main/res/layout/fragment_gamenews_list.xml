@@ -6,8 +6,8 @@
 
     <data>
         <variable
-            name="viewModelNews"
-            type="com.example.uas_mobile.ui.gamenews.GameNewsViewModel" />
+            name="viewModel"
+            type="com.example.uas_mobile.GameViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="8dp"
-            app:listData="@{viewModelNews.gamesnews}"
+            app:listData="@{viewModel.gamesnews}"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
@@ -29,7 +29,7 @@
             android:id="@+id/status_image"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:apiStatus="@{viewModelNews.statusnews}"
+            app:apiStatus="@{viewModel.status}"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"

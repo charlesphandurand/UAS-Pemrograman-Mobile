@@ -6,8 +6,8 @@
 
     <data>
         <variable
-            name="viewModelPC"
-            type="com.example.uas_mobile.ui.gamepc.GamePCViewModel" />
+            name="viewModel"
+            type="com.example.uas_mobile.GameViewModel" />
 
         <variable
             name="thumbnailPC"
@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="8dp"
-            android:text="@{viewModelPC.gamepc.title}"
+            android:text="@{viewModel.gamepc.title}"
             android:textStyle="bold"
             android:textAppearance="?attr/textAppearanceHeadline5"
             app:layout_constraintStart_toStartOf="parent"
@@ -39,7 +39,7 @@
             android:layout_width="match_parent"
             android:layout_height="500px"
             android:scaleType="centerCrop"
-            app:imageUrl="@{viewModelPC.gamepc.thumbnail}"
+            app:imageUrl="@{viewModel.gamepc.thumbnail}"
             android:padding="6dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/title"/>
@@ -49,7 +49,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="4dp"
-            android:text="@{`Genre: ` + viewModelPC.gamepc.genre}"
+            android:text="@{`Genre: ` + viewModel.gamepc.genre}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/thumbnail"
             tools:text="Genre"/>
@@ -59,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="4dp"
-            android:text="@{`Platform: ` + viewModelPC.gamepc.platform}"
+            android:text="@{`Platform: ` + viewModel.gamepc.platform}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/genre"
             tools:text="Platform"/>
@@ -69,7 +69,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="4dp"
-            android:text="@{`Developer: ` + viewModelPC.gamepc.developer}"
+            android:text="@{`Developer: ` + viewModel.gamepc.developer}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/platform"
             tools:text="Developer"/>
@@ -79,7 +79,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="4dp"
-            android:text="@{`Short Description: ` + viewModelPC.gamepc.short_description}"
+            android:text="@{`Short Description: ` + viewModel.gamepc.short_description}"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/developer"
             tools:text="Description"/>

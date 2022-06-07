@@ -8,22 +8,23 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
+import com.example.uas_mobile.GameViewModel
 import com.example.uas_mobile.R
 import com.example.uas_mobile.databinding.FragmentGamenewsListBinding
 
 class GameNewsListFragment: Fragment() {
-    private val viewModelNews: GameNewsViewModel by activityViewModels()
+    private val viewModel: GameViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val binding = FragmentGamenewsListBinding.inflate(inflater)
-        viewModelNews.getGameNewsList()
+        viewModel.getGameNewsList()
         binding.lifecycleOwner = this
-        binding.viewModelNews = viewModelNews
+        binding.viewModel = viewModel
         binding.recyclerView.adapter = GameNewsListAdapter(GameNewsListener { gamenews ->
-            viewModelNews.onGameClicked(gamenews)
+            viewModel.onGameNewsClicked(gamenews)
             findNavController()
                 .navigate(R.id.action_gameNewsListFragment_to_gameNewsDetailFragment)
         })

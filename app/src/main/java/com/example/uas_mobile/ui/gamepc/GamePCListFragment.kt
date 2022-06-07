@@ -8,22 +8,23 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
+import com.example.uas_mobile.GameViewModel
 import com.example.uas_mobile.R
 import com.example.uas_mobile.databinding.FragmentGamepcListBinding
 
 class GamePCListFragment: Fragment() {
-    private val viewModelPC: GamePCViewModel by activityViewModels()
+    private val viewModel: GameViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         val binding = FragmentGamepcListBinding.inflate(inflater)
-        viewModelPC.getGamePCList()
+        viewModel.getGamePCList()
         binding.lifecycleOwner = this
-        binding.viewModelPC = viewModelPC
+        binding.viewModel = viewModel
         binding.recyclerView.adapter = GamePCListAdapter(GamePCListener { gamepc ->
-            viewModelPC.onGameClicked(gamepc)
+            viewModel.onGamePCClicked(gamepc)
             findNavController()
                 .navigate(R.id.action_gamePCListFragment_to_gamePCDetailFragment)
         })

@@ -7,10 +7,11 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
+import com.example.uas_mobile.GameViewModel
 import com.example.uas_mobile.databinding.FragmentGamenewsDetailBinding
 
 class GameNewsDetailFragment : Fragment() {
-    private val viewModelNews: GameNewsViewModel by activityViewModels()
+    private val viewModel: GameViewModel by activityViewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -18,7 +19,7 @@ class GameNewsDetailFragment : Fragment() {
     ): View? {
         val binding = FragmentGamenewsDetailBinding.inflate(inflater)
         binding.lifecycleOwner = this
-        binding.viewModelNews = viewModelNews
+        binding.viewModel = viewModel
 
         (activity as AppCompatActivity).supportActionBar?.title = "News Detail"
 
