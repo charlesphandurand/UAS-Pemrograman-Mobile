@@ -13,3 +13,6 @@ Games
 
 # Data Model
 Game Browser, Game PC, dan Game News
+
+# Desc
+Aplikasi Android ini merupakan tugas akhir pada mata kuliah Pemrograman Mobile yang dikerjakan oleh dua orang. Aplikasi ini mengambil data dari MMO Games API - by MMOBomb. Pada Aplikasi ini akan menampilkan data game dengan platform pc, platform web browser dan berita terbaru mengenai games.
